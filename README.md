@@ -1,17 +1,24 @@
-# 🥭 MaNGO: Adaptable Graph Network Simulators via Meta-Learning
+# 🐦 ROBIN: Rolling Diffusion-Batched Inference Network
 
-This repository will host the official code release for our **NeurIPS 2025** paper:
+This repository contains the official code release of our **NeurIPS 2025** paper:
 
-> **[MaNGO: Adaptable Graph Network Simulators via Meta-Learning](https://arxiv.org/abs/2510.05874)**  
-> Philipp Dahlinger, Tai Hoang, Denis Blessing, Niklas Freymuth, Gerhard Neumann
+> **[Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics](https://arxiv.org/abs/2506.06045)**  
+> Tobias Würth, Niklas Freymuth, Gerhard Neumann, Luise Kärger \
 > Karlsruhe Institute of Technology (KIT)
 
 ---
 
 ### 📘 Overview
 
-MaNGO introduces a **Meta Neural Graph Operator** that enables **Graph Network Simulators** to adapt across different physical systems.  
-The method combines **meta-learning** with a **neural operator based architecture**, allowing the simulator to generalize to unseen material properties and predict full trajectories efficiently and stably.
+**ROBIN** (Rolling diffusion-Batched Inference Network) is a novel framework for simulating nonlinear solid mechanics using diffusion-based hierarchical graph neural networks. It combines three key components:
+
+- **DDPMs** (Denoising Diffusion Probabilistic Models) — Denoising diffusion with v-prediction. Early steps predict low-frequency structure and later steps refine high-frequency details for stable long rollouts.
+
+- **AMPNs** (Algebraic-hierarchical Message Passing Networks) — Algebraic-hierarchical Message Passing built on root-node AMG coarsening, which preserves mesh geometry and yields wide, multiscale receptive fields crucial for geometric nonlinearity.
+
+- **ROBI** (Rolling diffusion-Batched Inference) — A novel inference scheme that parallelizes the denoising of consecutive time steps by reconstructing physical states based on partially denoised predictions, enabling efficient rollouts over long time horizons.
+
+In short: Iterative prediction refinement (DDPMs) + multiscale message passing (AMPNs) + parallel denoising inference (ROBI)
 
 ---
 
@@ -23,6 +30,5 @@ Stay tuned for updates once the camera-ready version is finalized.
 ---
 
 ### 📫 Contact
-
-For questions or collaboration inquiries, please contact:  
-**Philipp Dahlinger** – [philipp.dahlinger@kit.edu](mailto:philipp.dahlinger@kit.edu)
+  
+**Tobias Würth** – [tobias.wuerth@kit.edu](mailto:tobias.wuerth@kit.edu)
