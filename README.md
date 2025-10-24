@@ -1,4 +1,4 @@
-# 🐦 ROBIN: Rolling Diffusion-Batched Inference Network
+# ROBIN: Rolling Diffusion-Batched Inference Network
 
 This repository contains the official code release of our **NeurIPS 2025** paper:
 
@@ -8,7 +8,7 @@ This repository contains the official code release of our **NeurIPS 2025** paper
 
 ---
 
-### 📘 Overview
+### Overview
 
 **ROBIN** (Rolling diffusion-Batched Inference Network) is a novel framework for simulating nonlinear solid mechanics using diffusion-based hierarchical graph neural networks. It combines three key components:
 
@@ -22,13 +22,13 @@ In short: Iterative prediction refinement (DDPMs) + multiscale message passing (
 
 ---
 
-### 🚀 Code Release
+### Code Release
 
 The code will be released soon.  
 Stay tuned for updates once the camera-ready version is finalized.
 
 ---
 
-### 📫 Contact
+### Contact
   
 **Tobias Würth** – [tobias.wuerth@kit.edu](mailto:tobias.wuerth@kit.edu)
