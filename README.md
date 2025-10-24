@@ -1,6 +1,7 @@
-# ROBIN: Rolling Diffusion-Batched Inference Network
+# <img src="docs/static/images/robin_emoji.png" alt="drawing" width="25"/> ROBIN: Rolling Diffusion-Batched Inference Network
 
 This repository contains the official code release of our **NeurIPS 2025** paper:
+
 
 > **[Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics](https://arxiv.org/abs/2506.06045)**  
 > Tobias Würth, Niklas Freymuth, Gerhard Neumann, Luise Kärger \
